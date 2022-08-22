@@ -1,0 +1,95 @@
+.login-container{
+    background:radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% ) ;
+    height: 100vh;
+    padding: 30px;
+}
+.login-box{
+    font-size: .8em;
+    box-shadow:0px 2px 8px 0px rgba(0, 0, 0, .2) ;
+    border-radius: 20px;
+    background-color: #535c68 ;
+    padding: 25px 35px;
+    color: white;
+    margin: 20px 30px;
+}
+.login-box form{
+
+
+}
+.login-box .social-auth{
+    display: flex;
+justify-content: space-around;
+border-top: 1px solid white;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.login-box .social-auth a{
+
+}
+.login-box .social-auth a i{
+    color:#f1c40f ;
+    font-size: 1.9em;
+    cursor: pointer;
+}
+.login-box form .input-gp{
+    margin: 10px 30px;
+
+}
+.login-box form .input-gp label{
+    display: block;
+    font-size: 1.3em;
+    font-weight: bold;
+
+}
+.login-box form .input-gp input{
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    padding: 10px;
+    color:white ;
+    font-size: 1.4em;
+    width: 100%;
+}
+.login-box form .do-you-have{
+    font-size: 1.35em;
+    font-weight: bolder;
+
+}
+.login-box form .do-you-have a{
+    border-bottom: 1px solid black;
+    color: red;
+    cursor: pointer;
+
+}
+.login-box form .submit-btn-container{
+    /* display: inline-block; */
+    text-align: center;
+
+
+
+}
+.login-box form .submit-btn-container input{
+    border: none;
+    border-radius: 30px;
+    background-color: #e74c3c;
+    color: white;
+    font-size: 1.35em;
+    padding: 10px 40px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+
+.login-img.container{
+    display: flex;
+    height: 100%;
+        /* overflow: hidden; */
+
+
+}
+.login-img.container img{
+    width: 100%;
+}
